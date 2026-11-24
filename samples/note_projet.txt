@@ -1,0 +1,6 @@
+Compte rendu de réunion – Projet ToolAgent
+Date : 12 novembre 2026. Participants : équipe pédagogique et étudiants du module NLP.
+Objectifs : concevoir un agent conversationnel capable d'utiliser des outils externes (recherche web, analyse de données, SQL, génération d'images, résumé de documents).
+Décisions : architecture FastAPI + React ; boucle d'agent avec appel de fonctions ; streaming des réponses ; évaluation sur 30 questions de test.
+Risques : latence des API, hallucinations, injection de prompt via contenus web. Mitigations : requêtes SQL en lecture seule, validation des arguments, garde-fous SSRF.
+Prochaines étapes : rédiger le rapport, préparer la démonstration, mesurer la précision du choix d'outils.
